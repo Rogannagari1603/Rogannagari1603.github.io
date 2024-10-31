@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Legal-Insight</div>
+      <div>
+        <div class="nav-container">
+          <ul class="nav-links">
+            <li><a href="#about">Idea</a></li>
+            <li><a href="#experience">Tools</a></li>
+            <li><a href="#projects">Team</a></li>
+          </ul>
+          <img src="./assets/assets/moon.png" id="icon" alt="dark_mode" />
+        </div>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ravi Rogannagari</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        <img src="./assets/assets/moon.png" id="icon" alt="dark_mode" />
+      </div>
+    </nav>
+
+    <section id="about">
+      <p class="section__text__p1">Project Idea</p>
+      <h1 class="title">Legal-Insight</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/assets/chatbot_img_2_1.png"
+            alt="Education picture"
+            class="about-pic"
+          />
+        </div>
+        
+          <div class="text-container">
+            <p>
+
+
+              LegalInsight aims to simplify complex legal documents by creating concise summaries that make legal information more accessible and easy to understand. The project also includes an interactive Q&A feature, allowing users to ask questions about these documents or their summaries. Through this tool, users receive clear responses that highlight relevant sections or define any difficult legal terms, making the reading process easier.
+
+The tool will feature a user-friendly interface designed to support individuals of all ages in navigating complex legal texts. By combining both summarization and interactive guidance, LegalInsight provides a reliable resource for understanding important legal content.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1"></p>
+      <h1 class="title">Tools</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-containers">
+            <h2 class="experience-sub-title">Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Pytorch</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Streamlit</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>NLTK</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Github</h3>
+                </div>
+              </article>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1"></p>
+      <h1 class="title">Team</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-containers color-container">
+            <div class="article-container">
+              <img
+                src="./assets/assets/profile-pic-gen.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Ravi Rogannagari</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.linkedin.com/in/ravi-rogannagari/'"
+              >
+                LinkedIn
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Ravi1603'"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-containers color-container">
+            <div class="article-container">
+              <img
+                src="./assets/assets/khad-pic.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Khadyoth Gunturu</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                LinkedIn
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+          <div class="details-containers color-container">
+            <div class="article-container">
+              <img
+                src="./assets/assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Sripathi Narsimha</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                LinkedIn
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                GitHub
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">Idea</a></li>
+            <li><a href="#experience">Tools</a></li>
+            <li><a href="#projects">Team</a></li>
+            
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Ravi Rogannagari. All rights reservesd.</p>
+    </footer>
+    <script src="scripts.js">
+      var icon = document.getElementById("icon");
+      icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")){
+          icon.src = "./assets/assets/sun.png"
+        }else{
+          icon.src="/assets/assets/moon.png"
+        }
+      }
+    </script>
+  </body>
+</html>
